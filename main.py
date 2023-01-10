@@ -8,7 +8,7 @@ import os.path
 
 THRESHOLD = 800
 
-
+#plot graph
 def plot(x, y, opts):
     fig, ax = plt.subplots()
     ax.plot(x, y)
